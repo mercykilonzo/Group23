@@ -9,7 +9,6 @@ fun conveyorBelt(item:String):String{
    var conveyorList = mutableListOf<String>("bag","shoes")
 
     conveyorList.add(item)
-    println(conveyorList)
     if (conveyorList.isNotEmpty()){
         dequeuedItem = conveyorList.removeAt(0)
     }
